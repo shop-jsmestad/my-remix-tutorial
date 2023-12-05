@@ -45,7 +45,13 @@ export default function EditContact() {
       </label>
       <label>
         <span>Avatar URL</span>
-        <input aria-label="Avatar URL" defaultValue={contact.avatar} name="avatar" type="text" placeholder="https://example.com/avatar.jpg" />
+        <input
+          aria-label="Avatar URL"
+          defaultValue={contact.avatar}
+          name="avatar"
+          type="text"
+          placeholder="https://example.com/avatar.jpg"
+        />
       </label>
       <label>
         <span>Notes</span>
